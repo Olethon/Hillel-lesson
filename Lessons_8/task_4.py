@@ -10,6 +10,7 @@ def countdown_decorator(func):
             counter -= 1
         time.sleep(1)
         func(*args, **kwargs)
+
     return wrapper
 
 
